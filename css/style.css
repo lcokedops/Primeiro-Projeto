@@ -1,0 +1,31 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.cabecalhoMenu{
+    border-bottom: 3px solid #d0b713;
+}
+
+.cabecalhoMenu img{
+    width: 400px;
+}
+
+.conteudoPagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoPagina img{
+    width: 40%;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.conteudoPagina p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+}
