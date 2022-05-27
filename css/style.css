@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito', sans-serif;
+    background-color: #faf8f1;
 }
 
 .cabecalhoMenu{
@@ -8,6 +9,18 @@ body{
 
 .cabecalhoMenu img{
     width: 400px;
+}
+
+.cabecalhoMenu .conteudoMenu{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhoMenu a{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(25, 24, 24);
+    padding: 10px;
 }
 
 .conteudoPagina{
